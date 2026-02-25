@@ -28,10 +28,10 @@ export const nodes: GlobeNode[] = [
       ],
       tips: [
         'Separate burnable, non-burnable, and recyclables on collection days.',
-        'Use convenience-store and station recycling bins for PET and cans.',
+        'Use convenience-store and station recycling bins for plastics and cans.',
         'Reduce single-use plastics; many shops charge for bags.',
       ],
-      link: { url: 'https://www.kankyo.metro.tokyo.lg.jp/', label: 'Tokyo Bureau of Environment' },
+      link: { url: 'https://www.env.go.jp/en/index.html', label: 'Tokyo Environment' },
     },
   },
   {
@@ -47,11 +47,11 @@ export const nodes: GlobeNode[] = [
         'Dual system: yellow bin (packaging), blue (paper), green/brown (organic).',
       ],
       tips: [
-        'Use the Pfand system: return bottles for refund at supermarkets.',
+        'return bottles for refund at supermarkets.',
         'Compost organic waste or use brown bins where available.',
-        'Drop off electronics at BSR recycling yards or designated points.',
+
       ],
-      link: { url: 'https://www.bsr.de/', label: 'BSR (Berlin waste authority)' },
+      link: { url: 'https://www.bundesumweltministerium.de/en', label: 'Berlin Info' },
     },
   },
   {
@@ -69,9 +69,9 @@ export const nodes: GlobeNode[] = [
       tips: [
         'Use blue (recyclables), green (compost), and black (landfill) bins correctly.',
         'Keep food scraps and soiled paper out of recycling.',
-        'Donate or repair items via Recology and local reuse programs.',
+        'Donate or repair items for local reuse programs.',
       ],
-      link: { url: 'https://www.recology.com/', label: 'Recology SF' },
+      link: { url: 'https://www.epa.gov/home', label: 'SF Info' },
     },
   },
   {
@@ -88,10 +88,10 @@ export const nodes: GlobeNode[] = [
       ],
       tips: [
         'Separate dry recyclables (plastic, metal, paper) for collection or cooperatives.',
-        'Support catadores (waste picker) cooperatives when possible.',
+
         'Reduce organic waste; home composting is growing in the city.',
       ],
-      link: { url: 'https://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/', label: 'São Paulo Environment' },
+      link: { url: 'http://www.ibama.gov.br/', label: 'São Paulo Environment' },
     },
   },
   {
@@ -104,14 +104,14 @@ export const nodes: GlobeNode[] = [
       stats: [
         'Large informal recycling sector; formal rate estimates vary',
         'Waste generation growing with population',
-        'PSP operators and LAWMA manage collection in parts of the city.',
+
       ],
       tips: [
-        'Separate recyclables for informal collectors (weevils) where safe.',
+        'Separate recyclables',
         'Reduce plastic use; reuse containers and bags.',
         'Support community clean-ups and local recycling initiatives.',
       ],
-      link: { url: 'https://lawma.gov.ng/', label: 'LAWMA' },
+      link: { url: 'https://nesrea.gov.ng/', label: 'Lagos Info' },
     },
   },
   {
@@ -127,11 +127,11 @@ export const nodes: GlobeNode[] = [
         'Yellow lid (recyclables), red (general), green (organic) in many councils.',
       ],
       tips: [
-        'Keep soft plastics out of yellow bin; use REDcycle or store drop-offs.',
+        'Keep soft plastics out of yellow bin',
         'Use green bin for food and garden organics where available.',
-        'Check council A–Z for hazardous and e-waste disposal.',
+
       ],
-      link: { url: 'https://www.epa.nsw.gov.au/your-environment/recycling-and-reuse', label: 'NSW EPA recycling' },
+      link: { url: 'https://www.dcceew.gov.au/', label: 'Sydney Info' },
     },
   },
   {
@@ -142,16 +142,16 @@ export const nodes: GlobeNode[] = [
     content: {
       heading: 'Waste & recycling in Mumbai',
       stats: [
-        'Recycling heavily driven by informal sector (ragpickers, kabadiwalas)',
+        'Recycling heavily driven by informal sector',
         'Municipal collection covers only part of generated waste',
         'Waste per capita lower than many cities; total volume very high.',
       ],
       tips: [
-        'Sell paper, plastic, metal to local kabadiwala for reuse/recycling.',
+        'Sell paper, plastic, metal to locals for reuse/recycling.',
         'Compost kitchen waste; reduce single-use plastic.',
         'Support extended producer responsibility and cleaner segregation.',
       ],
-      link: { url: 'https://portal.mcgm.gov.in/', label: 'MCGM solid waste' },
+      link: { url: 'https://moef.gov.in/', label: 'Mumbai Info' },
     },
   },
 ];
